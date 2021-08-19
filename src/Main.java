@@ -1,4 +1,4 @@
-public class Hello {
+public class Main {
     public static void main(String[] args) {
 
         PrimitiveTypes.PrimChallenge(0);
@@ -16,6 +16,12 @@ public class Hello {
         SpeedConverter.printConversion(-5.6); // should return value -1
         SpeedConverter.printConversion(25.42); // should return value 16
         SpeedConverter.printConversion(75.114); // should return value 47
+        MegaBytes.printMegaBytesAndKiloBytes(1024);
+        System.out.println(BarkingDog.shouldWakeUp(true,15));
+        System.out.println(BarkingDog.shouldWakeUp (true, 1));
+        System.out.println(BarkingDog.shouldWakeUp (false, 2));
+        System.out.println(BarkingDog.shouldWakeUp (true, 8));
+        System.out.println(BarkingDog.shouldWakeUp (true, -1));
     }//main
 
 
